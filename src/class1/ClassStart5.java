@@ -18,6 +18,12 @@ public class ClassStart5 {
 
         Student[] students = {student1, student2};
 
+        /**
+         * 향상된 for문
+         * students 리스트 안에서Student 타입의 요소를 하나씩 꺼내서
+         * s변수에 담고 반복문 본문을 실행한다
+         * List, Set 같은 컬렉션은 데이터 목록을 다루는 구조
+         */
         for (Student s : students) {
             System.out.println("이름: " + s.name + " 나이: " + s.age + " 성적: " + s.grade);
         }
