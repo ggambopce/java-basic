@@ -13,7 +13,7 @@ public class MemberConstruct {
     /**
      * this를 사용하면 생성자 내부에서 다른 생성자를 호출할 수 있다.
      * this()는 생성자 코드의 첫줄에만 작성할 수 있다.
-     * 
+     *
      */
     MemberConstruct(String name, int age) {
         this(name, age, 50);
